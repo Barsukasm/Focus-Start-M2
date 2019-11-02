@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.47;
+	color: #282828;
+	height: 100%;
+}
+
+
+.c-search{
+	width: 400px;
+	margin: 25px auto;
+}
+
+.c-search::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.o-input{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 40px;
+	display: block;
+	line-height: 1.21;
+	padding: 11px 20px 12px 20px;
+	min-width: 100px;
+	border-radius: 3px;
+	border: solid 1px #e0e0e0;
+	background-color: #ffffff;
+	font-size: 14px;
+}
+
+.c-search__o-search-field{
+	width: calc(100% - 75px);
+	border-radius: 3px 0 0 3px;
+	float: left;
+}
+
+
+
+.o-button{
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	height: 40px;
+	font-size: 14px;
+	line-height: 1.21;
+	padding: 11px 20px 12px 20px;
+	min-width: 100px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px;
+	background-color: #8bc34a;
+	border-radius: 3px;
+}
+
+.o-button-cancel{
+	background-color: #ffffff;
+	color: #282828;
+	border: solid 1px #757575;
+}
+
+.c-search__o-search-button{
+	min-width: 75px;
+	width: 75px;
+	border-radius: 0 3px 3px 0;
+	float: left;
+	margin-left: -1px;		
+}
+
+
+.c-navbar{
+	width: 100%;
+	height: 45px;
+	padding: 12px 0 0 5%;
+	background-color: #f4f4f4;
+}
+
+
+
+.c-navbar__item{
+	display: inline;
+	color: #737270;
+	text-decoration: none;
+	margin: 0 14px;
+}
+
+
+.o-popup{
+	width: 25px;
+	height: 25px;
+	background-color: #8bc34a;
+	border-radius: 50%;
+	font-size: 12px;
+	text-align: center;	
+	line-height: 2;
+	color: #ffffff;
+	position: relative;
+	bottom: -15px;
+	right: -5px;
+	float: right;
+}
+
+.c-button-with-popups{
+	max-width: 115px;
+}
+
+.o-label{
+  	position: relative;
+	cursor: pointer;
+	margin: 20px;
+}
+
+.o-radio{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #ffffff;
+	border: solid 1px #c6c6c5;
+	border-radius: 50%;	
+}
+
+.o-radio:checked ~ .checkmark{
+	border-color: #8bc34a;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	top: 3px;
+	left: 3px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #8bc34a;
+}
+
+.o-radio:checked ~ .checkmark::after{
+	display: block;
+}
+
+
+.checkmark-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #ffffff;
+	border: solid 1px #c6c6c5;
+	border-radius: 3px;	
+}
+
+.o-checkbox{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.o-checkbox:checked ~ .checkmark-box{
+	background: url(images/check-mark.svg) center no-repeat;
+}
+
+.o-checkbox:checked ~ .checkmark-box::after{
+	display: block;
+}
