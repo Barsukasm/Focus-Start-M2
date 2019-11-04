@@ -15,32 +15,7 @@
 	margin-bottom: 1.5rem;
 }
 
-.operation-card{
-	height: 41rem;
-	width: 60.75rem;
-	border: solid 1px #c6c6c5;
-	border-radius: 5px;
-	position: relative;
-	z-index: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
 
-.operation-card::before{
-	content: "";
-	position: absolute;
-	height: 1.5rem;
-	width: 1.5rem;
-	transform: rotate(45deg);
-	border-top: solid 1px #c6c6c5;
-	border-left: solid 1px #c6c6c5; 
-	top: -0.82rem;
-	left: 15rem;
-	z-index: 1;
-	background-color: #fff;
-}
 
 .oper{
 	text-decoration: none;

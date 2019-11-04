@@ -54,11 +54,142 @@
 
 		<div class="wrapper">
 			<div class="operations">
-				<a href="#" class="oper current">Shipping Address</a>
-				<a href="#" class="oper">Payment</a>
+				<a href="#" class="oper">Shipping Address</a>
+				<a href="#" class="oper current">Payment</a>
 			</div>
 			<div class="operation-card">
-				
+				<div class="operation-card__main">
+					<div class="operation-card__cart">
+						<p class="operation-card__cart-heading">Your Order</p>
+						<table class="c-cart-table">
+							
+							<tr>
+								<td class="o-detail">
+									<div>
+										<div class="o-detail__item o-detail__item__payment">
+											<img src="images/layer-7-copy.jpg">
+										</div>				
+										<div class="o-item-info">
+											<p class="o-supplier">Product Name Here</p>
+										</div>
+									</div>
+								</td>
+								<td class="o-qty">
+									<input type="text" value="1" class="o-input o-qty__input">
+								</td>
+								<td class="o-sum">$28.99</td>
+							</tr>
+							<tr>
+								<td class="o-detail">
+									<div>
+										<div class="o-detail__item o-detail__item__payment">
+											<img src="images/bitmap.jpg">
+										</div>				
+										<div class="o-item-info">
+											<p class="o-supplier">Product Name Here</p>
+										</div>
+									</div>
+								</td>
+								<td class="o-qty">
+									<input type="text" value="2" class="o-input o-qty__input">
+								</td>
+								<td class="o-sum">$28.99</td>
+							</tr>
+							<tr>
+								<td class="o-detail">
+									<div>
+										<div class="o-detail__item o-detail__item__payment">
+											<img src="images/bitmap_2.jpg">
+										</div>				
+										<div class="o-item-info">
+											<p class="o-supplier">Product Name Here</p>
+										</div>
+									</div>
+								</td>
+								<td class="o-qty">
+									<input type="text" value="1" class="o-input o-qty__input">
+								</td>
+								<td class="o-sum">$28.99</td>
+							</tr>
+							<tr>
+								<td class="o-detail">
+									<div>
+										<div class="o-detail__item o-detail__item__payment">
+											<img src="images/bitmap.jpg">
+										</div>				
+										<div class="o-item-info">
+											<p class="o-supplier">Product Name Here</p>
+										</div>
+									</div>
+								</td>
+								<td class="o-qty">
+									<input type="text" value="1" class="o-input o-qty__input">
+								</td>
+								<td class="o-sum">$28.99</td>
+							</tr>
+							<tr>
+								<td class="o-detail">
+									<div>
+										<div class="o-detail__item o-detail__item__payment no-border">
+											
+										</div>				
+										<div class="o-item-info">
+											<p class="o-supplier sum-field__p">Shipping Charge</p>
+										</div>
+									</div>
+								</td>
+								<td class="o-qty">
+									
+								</td>
+								<td class="o-sum sum-field__span">$5.00</td>
+							</tr>
+						</table>
+					</div>
+					<div class="operation-card__divider"></div>	
+					<div class="operation-card__payment-detail">
+						<div class="payment-field">	
+							<label class="o-label">
+								<input type="radio" class="o-radio" name="payment-method" checked>
+								<span class="checkmark"></span>	
+								<span class="label-p-method current">Credit Card / Debit Card</span>					
+							</label>
+						</div>
+						<div class="payment-field">
+							<p class="payment-field__p">Name on Card</p>
+							<input type="text" class="o-input" placeholder="Daniel Hecker">
+						</div>
+						<div class="payment-field">
+							<p class="payment-field__p">Card Number</p>
+							<input type="text" class="o-input" placeholder="4121 4411 1414 9754">
+						</div>
+						<div class="payment-row">
+							<div class="payment-row__field o-button-left">
+								<p class="payment-field__p">Valid Trough</p>
+								<input type="text" class="o-input" placeholder="MM / DD">
+							</div>
+							<div class="payment-row__field o-button-right">
+								<p class="payment-field__p">CVV</p>
+								<input type="text" class="o-input" placeholder="eg. 201">
+							</div>
+						</div>
+
+						<div class="payment-field">
+							<label class="o-label">
+								<input type="radio" class="o-radio" name="payment-method">
+								<span class="checkmark"></span>	
+								<span class="label-p-method">Paypal</span>					
+							</label>
+						</div>
+						<div class="payment-field">
+							<p class="payment-field__p">Email Address</p>
+							<input type="text" class="o-input" placeholder="abc@xyz.com">
+						</div>
+					</div>				
+				</div>
+				<div class="ship-a__last-row">
+					<button class="o-button o-button-cancel o-button-left">Back</button>
+					<button class="o-button o-button-right o-pay-button">Pay $254.84</button>
+				</div>
 			</div>
 		</div>
 
