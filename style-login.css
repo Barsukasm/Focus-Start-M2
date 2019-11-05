@@ -1,0 +1,182 @@
+.dark-back{
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1000;
+ 	height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0
+}
+
+.login-form{
+	width: 32rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1001;
+	background-color: #fff;
+	border: 1px solid #f4f4f4;
+	border-radius: 5px;
+	box-shadow: 0.8px 12px 68px 0 rgba(0, 0, 0, 0.3), 1.4px 20px 221px 0 rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.close-cross{
+	margin: 1rem;
+	width: calc(100% - 2rem);
+}
+
+.close-cross::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.close-image{
+	float: right;
+	cursor: pointer;
+}
+
+.login-form__field{
+	width: calc(100% - 7rem);
+	margin: 1rem 0;
+}
+
+.o-logo_correct{
+	margin-left: 3rem;
+}
+
+.login-form__options{
+	width: calc(100% - 7rem);
+	margin-bottom: 1rem;
+}
+
+.keep-logged{
+	margin: 0;
+	float: left;
+}
+
+.keep-logged__label{
+	margin-left: 26px;
+	font-size: 14px;
+	color: #878786;
+}
+
+.login-form__forgot{
+	float: right;
+	font-size: 14px;
+	text-align: right;
+	color: #878786;
+	text-decoration: none;
+}
+
+.login-form__buttons{
+	width: calc(100% - 15.25rem);
+}
+
+.login-form__buttons::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.o-log-in-button{
+	float: left;
+}
+
+.o-guest-button{
+	border: solid 1px #c8c8c8;
+	color: #878786;
+	float: right;
+}
+
+.alt-login{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.alt-login__border{
+	margin: 1rem 0 0;
+	width: calc(100% - 7rem);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.alt-login__line{
+	width: 11.875rem;
+	height: 1px;
+	background-color: #f4f4f4;
+}
+
+.alt-login__or{
+	font-size: 14px;
+	color: #878786;
+	margin: 0 0.5rem;
+}
+
+.alt-login__methods{
+	margin: 3rem 0;
+}
+
+.alt-login__heading{
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 1rem;
+}
+
+.alt-login__icons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.alt__facebook{
+	width: 42px;
+	height: 42px;
+	background-color: #3b5998;
+	border-radius: 50%;
+	margin-right: 2rem;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.alt__google{
+	background-color: #dc4e41;
+}
+
+.alt__pinterest{
+	background-color: #cb2027;
+	margin: 0;
+}
+
+.login-form__footer{
+	width: 100%;
+	border-top: 1px solid #f4f4f4;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-form__p{
+	margin: 1.5rem 0;
+	margin-right: 1rem;
+	font-size: 14px;
+	color: #878786;
+}
+
+.login__button{
+	color: #8bc34a;
+	border: solid 1px #8bc34a;
+	background-color: #ffffff;
+	margin: 1.5rem 0;
+}

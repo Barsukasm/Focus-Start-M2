@@ -1,0 +1,171 @@
+.wrapper{
+	width: 89%;
+	margin: 5rem auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.c-clothing__row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0 auto;
+}
+
+.c-clothing__card{
+	margin: 1rem 0;
+	margin-right: 4.375rem;
+}
+
+.c-clothing__card_last{
+	margin-right: 0;
+}
+
+
+.card__sup{
+	font-size: 14px;
+	color: #878786;
+}
+
+.card__prod{
+	font-size: 14px;
+	color: #1c1c1b;
+}
+
+.card__price{
+	font-size: 16px;
+	color: #8bc34a;
+}
+
+.c-clothing__card-caption{
+	border: solid 1px #c6c6c5;
+	border-radius: 4px;
+	border-top: none;
+	margin-top: -1rem;
+}
+
+.c-clothing__card-caption::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.c-clothing__card-description{
+	margin: 1.5rem 1rem 1rem;
+	float: left;
+}
+
+.c-clothing__more{
+	margin-top: 2.3rem;
+	margin-right: 1rem;
+	float: right;
+}
+
+.c-clothing__more:hover{
+	cursor: pointer;
+}
+
+.view-more__button{
+	color: #8bc34a;
+	border: solid 1px #8bc34a;
+	background-color: #ffffff;
+	margin: 1.5rem 0;
+}
+
+.c-clothing__heading{
+	width: 100%;
+	margin: 0 auto 2rem;
+}
+
+.o-heading__p{
+	font-size: 30px;
+	color: #8bc34a;
+}
+
+.c-clothing__card_first{
+	margin-top: -3.8rem;
+}
+
+.menu{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+	box-shadow: 0.7px 10px 20px 0 rgba(9, 9, 9, 0.2);
+	z-index: 100;
+	left: 5.5%;
+}
+
+.menu_hidden{
+	display: none;
+}
+
+.menu__row{	
+	width: calc(100% - 2rem);
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.menu__subcats{
+	display: flex;
+	flex-direction: column;
+	margin-right: 3rem;
+}
+
+
+
+.menu__heading{
+	margin: 1rem;
+	width: calc(100% - 2rem);
+}
+
+.menu__heading::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.menu__left{
+	float: left;
+}
+
+.menu__right{
+	float: right;
+	font-size: 12px;
+	text-align: right;
+	color: #878786;
+}
+
+.menu__main{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.menu__sub{
+	font-size: 15px;
+	line-height: 1.33;
+	color: #8bc34a;
+}
+
+
+.menu__border{
+	width: calc(100% - 2rem);
+	height: 1px;
+	background-color: #8bc34a;
+}
+
+.menu__item{
+	font-size: 15px;
+	line-height: 2;
+	color: #878786;
+	text-decoration: none;
+}
