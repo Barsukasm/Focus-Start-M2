@@ -17,11 +17,11 @@ html, body{
 }
 
 .c-upper-nav{
-	width: 89%;
+	width: 80.1rem;
+	margin: 2rem auto;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin: 1.9% 5.5% 1.6%;
 }
 
 .c-upper-nav__item{
@@ -45,7 +45,7 @@ html, body{
 }
 
 .c-user-bar__item{
-	margin-right: 1.2rem;
+	margin-right: 2rem;
 	flex-shrink: 0;
 }
 
@@ -152,12 +152,15 @@ html, body{
 	margin-left: -1px;		
 }
 
-
-.c-navbar{
+.o-navbar-wrapper{
 	width: 100%;
-	height: 45px;
-	padding: 12px 0 0 5%;
 	background-color: #f4f4f4;
+}
+.c-navbar{
+	width: 80.1rem;
+	margin: 0 auto;
+	height: 45px;
+	padding: 12px 0;
 	display: flex;
 	flex-direction: row;
 }
@@ -167,7 +170,7 @@ html, body{
 .c-navbar__item{
 	color: #737270;
 	text-decoration: none;
-	margin: 0 14px;
+	margin-right: 3rem;
 	flex-shrink: 0;
 }
 
@@ -266,8 +269,9 @@ html, body{
 }
 
 .c-sub-nav{
-	width: 85%;
-	padding: 12px 0 0 5%;
+	width: 80.1rem;
+	margin: 0 auto;
+	padding: 12px 0;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -276,7 +280,7 @@ html, body{
 .c-sub-nav__item{
 	color: #737270;
 	text-decoration: none;
-	margin: 0 14px;
+	margin-right: 1.5rem;
 }
 
 .o-arrow{
@@ -284,7 +288,7 @@ html, body{
 	height: 8px;
 	background: url(images/arrow-copy.svg);
 	background-size: 5px 8px;
-	margin: 0 14px;
+	margin-right: 1.5rem;
 }
 
 .c-cart-table{

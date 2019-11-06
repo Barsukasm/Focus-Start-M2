@@ -1,11 +1,11 @@
 .wrapper{
-	width: 89%;
-	margin: 0 5.5%;
+	width: 80.1rem;
+	margin: 0 auto;
 }
 
 .cart{
 	float: left;
-	width: 50%;
+	width: 75%;
 }
 
 .o-ads{
