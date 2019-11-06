@@ -38,3 +38,6 @@ category.html - страница с товарами. По клику на "Home
 
 **Стили:**
 style-category.css
+
+**Скрипт**
+menu.js
